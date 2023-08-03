@@ -4,7 +4,7 @@ import crypto_making_tree_abi from "../artifacts/contracts/MySmartContract.sol/S
 
 export default function Homepage() {
 
-    const [meMessage,setMeMessage] = useState("Account Holder Name : Sangam ");
+    const [meMessage,setMeMessage] = useState("Hello there.... ");
     const [defaultAccount,setDefaultAccount] = useState(undefined);
     const [balance,setBalance] = useState(undefined);
     const [ethWallet,setEthWallet] = useState(undefined); 
@@ -120,7 +120,7 @@ export default function Homepage() {
 
     return (
       <main className="Priya">
-        <h1>Welcome to Sangam's Crypto Bank ATM!</h1>
+        <h1>Welcome to Priya's Crypto Bank !</h1>
         <h2>{meMessage}</h2>
         {initUser()}
         <style jsx>{`
